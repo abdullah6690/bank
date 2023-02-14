@@ -15,9 +15,9 @@ document.getElementById('btn-submit').addEventListener('click', function(){
     //  DO NOT VERIFY EMAIL PASSWORD ON THR CLIENT SIDE!
     // step -4 verify email and password
     if(email === 'sontan@baap.com' && password === '1234'){
-        console.log('valid user')
+        window.location.href = 'bank.html'
     }
     else{
-        console.log('FUCK YOU GET OUT')
+        alert('FUCK YOU GET OUT')
     }
 })
